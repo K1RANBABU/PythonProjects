@@ -1,0 +1,10 @@
+dict1={
+    3:"Arya",
+    4:"Arjun",
+    2:"Krithika",
+    1:"Ayana"
+}
+a=dict(sorted(dict1.items()))
+print(a)
+b=dict(sorted(dict1.items(),reverse=True))
+print(b)
